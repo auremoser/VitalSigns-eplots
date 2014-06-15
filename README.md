@@ -10,6 +10,7 @@ a test repository for e-plot data visualizations
 
 ##Demo
 You can find the work in progress demo [here](auremoser.github.io/vital-signs).
+
 It should look something like this:
 ![Draft 1](https://raw.githubusercontent.com/auremoser/vital-signs/master/assets/draft-1-vs.png)
 
