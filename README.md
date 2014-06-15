@@ -9,7 +9,7 @@ a test repository for e-plot data visualizations
 * The `js` code also incorporates some cleanup functions to reorganize the data values and make them available for plotting as we refine the goals for the project.
 
 ##Demo
-You can find the work in progress demo [here](auremoser.github.io/vital-signs).
+You can find the work in progress demo [here](http://auremoser.github.io/vital-signs/).
 
 It should look something like this:
 ![Draft 1](https://raw.githubusercontent.com/auremoser/vital-signs/master/assets/draft-1-vs.png)
