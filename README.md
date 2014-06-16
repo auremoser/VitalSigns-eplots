@@ -14,3 +14,5 @@ You can find the work in progress demo [here](auremoser.github.io/vital-signs).
 It should look something like this:
 ![Draft 1](https://raw.githubusercontent.com/auremoser/vital-signs/master/assets/draft-1-vs.png)
 
+And here is the structure of an eplot: 
+1[Eplot](https://raw.githubusercontent.com/auremoser/vital-signs/master/assets/eplot.png)
