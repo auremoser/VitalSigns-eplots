@@ -1,5 +1,7 @@
+
 <!DOCTYPE html>
 <html>
+<!-- CartoDB test maps to see how points plot, I can work on custom d3 maps thereafter, but this was a prototype to see how the data falls -->
 <head>
 	<title>Plot Points Test</title>
 	<meta charset="utf-8">
@@ -9,27 +11,46 @@
 		padding-top: 5px;
 		padding-left: 5px;
 	}
-	h1, h2, h3, h4 {
+	h1, h2, h3, h4, p {
 		font-family: Ariel, sans-serif !important;
 		margin-left: 15px;
 		margin-right: 20px;
-		color: #41b6c4;
+		color: #238443;
+	}
+	h4,p {
+		font-family: Ariel, sans-serif !important;
+		margin-left: 15px;
+		margin-right: 20px;
+		color: #225ea8;
 	}
 	hr {
-		color: #41b6c4;
-		background-color: #41b6c4;
+		color: #c7e9b4;
+		background-color: #c7e9b4;
 		height: 5px;
 		margin-bottom: 20px;
 	}
 
 </style>
 <body>
-	<h1>Tanzania E-Plot Prototype</h1>
+	<h1>E-Plot Maps - Tanzania</h1>
 	<hr>
+	<div>
+		<h2>Eplot Point Map</h2>
+		<h3>eplots points (red) on an intensity scale where darker is more dense</h3>
+		<iframe width='100%' height='520' frameborder='0' src='//aure.cartodb.com/viz/8ce393a6-f6f1-11e3-ab6d-0edbca4b5057/embed_map?title=false&description=false&search=false&shareable=false&cartodb_logo=true&layer_selector=false&legends=true&scrollwheel=false&fullscreen=true&sublayer_options=1&sql=&sw_lat=-14.668625907385826&sw_lon=23.939208984375&ne_lat=-4.1492006930992&ne_lon=46.878662109375' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+	</div>
+	<hr>
+	<div>
+		<h2>Eplot Bin Map</h2>
+		<h3>eplots binned counts to view overall eplot coverage</h3>
+		<iframe width='100%' height='520' frameborder='0' src='//aure.cartodb.com/viz/e0d7b6f2-f6f3-11e3-bcf8-0e73339ffa50/embed_map?title=false&description=false&search=false&shareable=false&cartodb_logo=true&layer_selector=false&legends=true&scrollwheel=true&fullscreen=true&sublayer_options=1&sql=&sw_lat=-14.668625907385826&sw_lon=21.456298828125&ne_lat=-4.1492006930992&ne_lon=50.548095703125' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+	</div>
+	<hr>
+	<div>
+		<h2>Eplot Point + Water Gauging Stations Map</h2>
+		<h3>water gauging station locations (blue) relative to eplots (red)</h3>
+		<iframe width='100%' height='520' frameborder='0' src='//aure.cartodb.com/viz/46aedb9a-f69f-11e3-82d4-0e230854a1cb/embed_map?title=false&description=false&search=false&shareable=false&cartodb_logo=true&layer_selector=false&legends=true&scrollwheel=false&fullscreen=true&sublayer_options=1%7C1%7C1%7C1&sql=&sw_lat=-12.467099214061742&sw_lon=23.15336835937501&ne_lat=-1.8876058401790448&ne_lon=46.37846601562501' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+	<div>
 
-	<script src="js/vendor/d3.v3.js"></script>
-	<script src="js/vendor/topojson.js"></script>
-	<script src="js/vital-signs.js"></script>
-	<hr>
 </body>
-</html>
+<html>
