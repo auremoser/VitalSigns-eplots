@@ -1,7 +1,7 @@
-# Vital Signs - Eplots
+## Vital Signs - Eplots
 a test repository for e-plot data visualizations + water gauging stations
 
-## Description
+### Description
 
 * This map uses the e-plot data as a csv (located in the `data` folder), and for the last example, water gauging station lat/long locations.
 * It plots topojson administrative districts from the Tanzanian geojson files available on GADM 2.0: <http://gadm.org/country> (located in the `public/topo` folder).
@@ -10,12 +10,12 @@ a test repository for e-plot data visualizations + water gauging stations
 
 * These are all sketches, subject to change and interation.
 
-## Next steps
+### Next steps
 Visualizations for these data might fall into two categories, the first of which is visualized here, the following (cat-2) is forthcoming.
 * Cat-1: Maps to illustrate where the eplots fall to show correlation to other mapped data
 * Cat-2: Plots to illustrate the values collected by sensors at the subplots
 
-##Demo
+### Demo
 You can find the work in progress demo [here](http://auremoser.github.io/VitalSigns-eplots/).
 
 It should look something like this:
