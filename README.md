@@ -1,8 +1,9 @@
+
+![VS-logo](https://raw.githubusercontent.com/auremoser/VitalSigns-eplots/master/assets/logo-small.jpg)
 ## Vital Signs - Eplots
 a test repository for e-plot data visualizations + water gauging stations
 
 ### Description
-
 * This map uses the e-plot data as a csv (located in the `data` folder), and for the last example, water gauging station lat/long locations.
 * It plots topojson administrative districts from the Tanzanian geojson files available on GADM 2.0: <http://gadm.org/country> (located in the `public/topo` folder).
 * The visualization colors and different map backgrounds depending on the aesthetic plan for the project (these are the tests)
